@@ -11,49 +11,33 @@
 </head>
 <body>
 
-  <!-- Advice # Advice ID goes here -->
-
-  <!-- Advice text goes here -->
-
     <main>
-
-
       <div class="main-container">
 
-         <p>ADVICE #117</p>
-
+         <p id="advice-number"> </p>  <!-- Advice number -->
 
           <div class="block-quote">
-              <blockquote>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto quas nostrum quam
+            <!-- The advice pulled from the api  -->
+              <blockquote id="quote">
+               Lemon and salt works wonders on tarnished brass.
               </blockquote>
 
-
+              <!-- Pattern divider image  -->
               <img src="images/pattern-divider-desktop.svg" alt="pattern-divider">
           </div>
-          <button><img class="dice-img" src="images/icon-dice.svg" alt="dice"></button>
-         
-
+            <!-- The Dice button to generate the messages  -->
+          <button id="generate-btn"><img class="dice-img" src="images/icon-dice.svg" alt="dice"></button>
 
       </div>
-
-     
-
     </main>
 
 
-
-
-
-  
+    <!--  Frontend mentor profile info -->
   <div class="footer-info">
-
     <footer>
-
-
      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>   Coded by <a href="">Mesgana</a></p> 
-    </footer>
-   
+    </footer> 
   </div>
+  <script src="index.js"></script>
 </body>
 </html>

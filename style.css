@@ -25,6 +25,7 @@ main {
 }
 
 .main-container {
+    width: 50%;
     max-width: 50%;
     margin: 10rem auto;
     background-color:   hsl(217, 19%, 24%);
@@ -36,6 +37,7 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     letter-spacing: .3rem;
+    font-weight: 500;
     padding: 1rem;
     color: hsl(150, 100%, 66%);
 }
@@ -45,6 +47,7 @@ main {
     gap: 2rem;
     padding: 1rem;
     font-size: 1.9rem;
+    font-weight: 700;
     max-width: 100%;
     margin: 0 auto;
     color: white;
@@ -89,4 +92,23 @@ blockquote::after {
     margin-left: 5rem;
     color: white;
 
+}
+
+a {
+    text-decoration: none;
+    color:hsl(150, 100%, 66%);
+}
+
+a:hover {
+    text-shadow: 0px 15px 15px  hsl(150, 100%, 66%);
+}
+
+
+@media (min-width:320px) and (max-width:700px) {
+
+    .main-container {
+        max-width: 90%;
+        width: 90%;
+        padding: 0;
+    }
 }
