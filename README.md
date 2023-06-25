@@ -20,7 +20,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the app depending on the device's screen size
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/mesganaG/advice-generator-app.git)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://mesganag.github.io/advice-generator-app/)
 
 ## My process
 
@@ -46,5 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Mesgana](https://www.frontendmentor.io/profile/mesganaG)
 - Frontend Mentor - [@mesganaG](https://www.frontendmentor.io/profile/mesganaG)
